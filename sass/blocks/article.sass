@@ -1,0 +1,53 @@
+// Article
+
+.article
+  position: relative
+  display: inline-block
+  width: 33.4rem
+  height: 35rem
+  background-color: $color--white
+  padding: 2.5rem
+  vertical-align: top
+  margin: 0
+
+.article:last-child
+  margin: 0
+
+.article__title
+  text-transform: capitalize
+  color: rgb(100, 100, 100)
+  font-size: 2.75rem
+  font-weight: 400
+  margin-bottom: 1rem
+
+.article__date
+  text-transform: capitalize
+  color: rgb(200, 200, 200)
+  font-size: 1.5rem
+  margin-bottom: 1rem
+  display: inline-block
+
+.article__body
+  font-size: 1.275rem
+  color: rgb(20, 20, 20)
+  line-height: 2.5rem
+  margin-bottom: 1.5rem
+
+.articles
+  margin-bottom: 6rem
+
+.article__link
+  text-transform: uppercase
+  color: $color--maroon
+  font-weight: 900
+  text-align: center
+  display: block
+  text-decoration: none
+
+.article__link:before
+  content: "["
+  padding-right: 0.25rem
+
+.article__link:after
+  content: "]"
+  padding-left: 0.25rem

@@ -1,0 +1,58 @@
+// Navs
+
+.nav__social
+  position: relative
+  float: right
+
+.nav__social img
+  margin-left: 1rem
+  margin-bottom: 1rem
+
+.nav__social:before
+  content: "•••••"
+  font-size: 1.5rem
+  color: $color--white
+  transform: rotate(90deg)
+  display: inline-block
+  letter-spacing: .25rem
+  vertical-align: top
+  padding-bottom: 4rem
+  padding-left: 2rem
+
+.nav__main
+  display: inline-block
+  margin: 0
+  padding: 0
+  padding-bottom: 1.5rem
+
+.nav__main a
+  width: 25rem
+  height: 4rem
+  display: inline-block
+  margin: 0
+  padding: 0
+  background-color: $color--maroon
+  color: $color--white
+  text-transform: uppercase
+  text-align: center
+  text-decoration: none
+  padding-top: 1rem
+  font-size: 1.75rem
+
+.nav__main a:after
+  content: "\2014"
+  padding-left: 1.5rem
+
+.nav__main a:before
+  content: "\2014"
+  padding-right: 1.5rem
+
+.nav__main li
+  margin-right: 0.4rem
+
+.nav__main li:last-child
+  margin-right: 0rem
+
+.nav__social--gray img
+  max-width: 3rem
+  max-height: 3rem
